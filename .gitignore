@@ -13,6 +13,13 @@ www/site/sessions/*
 !www/site/sessions/index.html
 www/site/config/credentials.php
 
+/FRONT
+/FRONT/node_modules
+/FRONT/scripts
+/FRONT
+/vendor
+/site
+
 ### PHP ###
 php-error.log*
 

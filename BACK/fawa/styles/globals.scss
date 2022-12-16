@@ -1,0 +1,18 @@
+@import 'reset';
+@import './mixins/easings';
+@import './mixins/media-queries';
+@import 'vars';
+@import 'typographies';
+
+// import
+@import './utils/flickity';
+@import './utils/locomotiv';
+
+// pages
+@import './general';
+@import './components/logo';
+@import './components/modules';
+@import './components/navigation';
+@import './components/restaurant';
+@import './components/events';
+@import './components/contact';

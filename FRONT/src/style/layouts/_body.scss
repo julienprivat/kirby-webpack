@@ -1,0 +1,270 @@
+$bordure: 20px;
+
+.root {
+
+    position: relative;
+
+}
+
+footer, .footer {
+
+    position: fixed;
+    display: grid;
+    grid-template-columns: 120px calc((100% - 445px) / 100 * 70) calc((100% - 445px) / 100 * 30) 65px 260px;
+
+    width: calc(100% - 20px);
+    position: fixed;
+    bottom: 0px;
+    opacity: 0;
+
+    height: 56px;
+    overflow: hidden;
+
+    padding: 10px 10px;
+    border-top: 1px solid var(--gris);
+    background-color: var(--blanc);
+
+    transition: border 0.3s ease,
+                background-color 0.3s ease,
+                opacity 0.3s ease;
+
+
+    @include mobile {
+
+        grid-template-columns: 60px calc((100% - 60px) / 100 * 40) calc((100% - 60px) / 100 * 60);
+        overflow: visible;
+        height: 37px;
+
+    }
+
+
+    img {
+
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: top;
+
+    }
+
+    &_item {
+
+        height: 56px;
+        overflow: hidden;
+
+        @include mobile {
+
+            height: 40px;
+            font-size: var(--med_font);
+
+        }
+
+    }
+
+    .logo {
+
+        margin: 0px 30px;
+        margin-left: 20px;
+        height: 56px;
+
+        @include mobile {
+
+            margin: 0px;
+            height: 36px;
+
+        }
+        svg {  
+
+            height: 100%;
+
+            path {
+
+                fill: var(--noir);
+
+            }
+
+        }
+
+    }
+
+    .text_agence {
+
+        margin-right: 30px;
+        color: var(--noir);
+
+        transition: opacity 0.3s ease;
+
+        &.white {
+
+            color: var(--blanc);
+
+            & span.black {
+
+                color: var(--noir);
+
+            }
+
+        }
+
+    }
+
+    .navigation {
+
+        font-size: var(--big_font);
+        line-height: 1;
+
+        @include mobile {
+
+            font-size: var(--med_font);
+
+        }
+
+
+        &_item {
+
+            transition: color 0.3s ease;
+            cursor: pointer;
+
+        }
+
+        &_item:hover, &_item.select {
+
+            color: #FF0000;
+
+        }
+
+    }
+
+    .slider_color {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 0.6rem;
+        cursor: pointer;
+
+        svg {
+
+            width: 60%;
+
+        }
+
+        g {
+
+            transition: fill 0.3s ease,
+                        stroke 0.3s ease,
+                        transform 0.3s ease;
+        }
+
+        #Ellipse_424 {
+
+            transform: translate(0px, 0px);
+            transition: transform 0.3s ease;
+
+        }
+
+        .title_color {
+
+           margin-top: 10px; 
+
+        }
+
+    }
+
+    .logo_large {
+
+        font-size: var(--big_font);
+        text-align: center;
+        line-height: 1;
+        padding-left: 11px;
+
+        @include mobile {
+
+            font-size: var(--med_font);
+
+        }
+
+        .sml {
+
+            vertical-align: top;
+            font-size: 0.6rem;
+        
+        }
+
+        @include mobile {
+
+            padding-left: 0px;
+
+        }
+
+    }
+
+    .info_project {
+
+        font-size: var(--big_font);
+        line-height: 1;
+
+        display: none;
+
+        &_date {
+
+            display: flex;
+
+            &_arrow {
+
+                opacity: 1;
+                
+                transition: opacity 0.3s ease,
+                            transform 0.3s ease;
+
+                &.hide{
+
+                    opacity: 0;
+                    transform: translateX(-20px);
+    
+                }
+
+            }
+
+            .arrow {
+
+                width: 32px;
+                margin: 0px 10px;
+
+                polygon { fill: var(--rouge)}
+
+            }
+
+        }
+
+    }
+
+}
+
+.project_infos_visible {
+
+    .navigation {
+
+        display: none;
+
+    }
+
+    .info_project {
+
+        display: block;
+
+    }
+
+}
+
+.dark_mode {
+
+    #Ellipse_424 {
+
+        transform: translate(23.5px, 0px)!important;
+
+    }
+
+}

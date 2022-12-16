@@ -1,0 +1,69 @@
+.content {
+
+    margin: 50px 0px;
+    background-color: white;;
+
+    .buble_text {
+    
+        width: calc(100% - 60px);
+        margin: 40px 0px;
+    
+        p {
+
+            font-size: var(--size_big);
+            line-height: 1.3;
+            font-family: sans-serif;
+            font-weight: 1;
+    
+            background-color: var(--back);
+            color: var(--color);
+    
+            width: fit-content;
+    
+            display: inline;
+            padding: 5px 6px;
+            font-weight: 500;
+            margin: 0px 30px;
+            
+            border-radius: 4px;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+            filter: url('#instagram');
+        }
+    
+    }
+
+    .images {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(100% - 26px);
+        margin: 0px 13px;
+
+        .illustration_wrapper {
+
+            padding: 13px;
+
+            img {
+
+                width: 100%;
+    
+            }
+
+            &:nth-child(2n) {
+
+                img { border-radius: 15px;}
+    
+            }
+
+            p {
+
+                margin-top: 20px;
+
+            }
+
+        }
+
+    }
+
+}

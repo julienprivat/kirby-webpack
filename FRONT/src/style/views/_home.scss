@@ -1,0 +1,49 @@
+.home {
+
+    .top .sub_wrapper {
+
+        transform: scaleX(1);
+        height: 100vh;
+        position: fixed;
+        top: 0px;
+        z-index: 10000;
+        transform-origin: 50% 0% 0px;
+
+        .top {
+
+            height: 50%;
+
+            svg {
+
+                height: 100%;
+                width: 100%;
+
+            }
+        }
+
+    }
+
+    .bot .sub_wrapper {
+
+        transform: scaleX(1);
+        height: 100vh;
+        position: fixed;
+        bottom: 0px;
+        z-index: 10000;
+        transform-origin: 50% 100% 0px;
+
+        .top {
+
+            height: 50%;
+
+            svg {
+
+                height: 100%;
+                width: 100%;
+
+            }
+        }
+
+    }
+        
+}

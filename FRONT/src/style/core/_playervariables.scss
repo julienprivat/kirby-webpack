@@ -1,0 +1,60 @@
+.page {
+    --plyr-color-main: transparent;
+    --plyr-video-control-background-hover: transparent;
+    --plyr-control-icon-size: 25px;
+    --plyr-font-family: $synd;
+    --plyr-font-size-time:1.1rem;
+    --plyr-range-track-height: 2.2px;
+    --plyr-video-progress-buffered-background: rgb(167, 167, 167);
+    --plyr-range-fill-background: white;
+    --plyr-range-thumb-height: 0px;
+    --plyr-control-spacing: 20px;
+
+    @include mobile {
+        --plyr-font-size-time:0.8rem;
+        --plyr-control-icon-size: 15px;
+    }
+
+    .plyr__control[data-plyr="settings"] {
+        display: none;
+    }
+    input[data-plyr="volume"] {
+        display: none;
+    }
+    .plyr__volume {
+        max-width: 0;
+        min-width: 32px;
+    }
+    .plyr__progress input[type=range], .plyr__progress__buffer {
+        transform: translateY(1px);
+    }
+
+    .plyr__controls__item.plyr__time--current.plyr__time {
+        padding-right: 0;
+        padding-left: 25px;
+    }
+    .plyr--video .plyr__controls {
+        padding-bottom: 15px;
+    }
+
+    .plyr__control.plyr__control--overlaid {
+        @include mobile {
+            display: none;
+        }
+    }
+}
+
+.plyr--full-ui {
+
+
+    transform: translate(0.1px, 0px);
+    background: var(--white)!important;
+
+    @include mobile {
+        transform: translate(0.2px, -15px);
+    }
+}
+
+.plyr__video-wrapper {
+    background: var(--white)
+}

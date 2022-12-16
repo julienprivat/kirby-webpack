@@ -1,0 +1,159 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4cb5d054a7fe6158af3256dac0379397",
+    "packages": [
+        {
+            "name": "getkirby/composer-installer",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/getkirby/composer-installer.git",
+                "reference": "c98ece30bfba45be7ce457e1102d1b169d922f3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/getkirby/composer-installer/zipball/c98ece30bfba45be7ce457e1102d1b169d922f3d",
+                "reference": "c98ece30bfba45be7ce457e1102d1b169d922f3d",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.8 || ^2.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Kirby\\ComposerInstaller\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kirby\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Kirby's custom Composer installer for the Kirby CMS and for Kirby plugins",
+            "homepage": "https://getkirby.com",
+            "support": {
+                "issues": "https://github.com/getkirby/composer-installer/issues",
+                "source": "https://github.com/getkirby/composer-installer/tree/1.2.1"
+            },
+            "funding": [
+                {
+                    "url": "https://getkirby.com/buy",
+                    "type": "custom"
+                }
+            ],
+            "time": "2020-12-28T12:54:39+00:00"
+        },
+        {
+            "name": "timoetting/kirby-builder",
+            "version": "2.0.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TimOetting/kirby-builder.git",
+                "reference": "6e8f6f4239dfe9836a394d32c2aeb9ceb5800780"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TimOetting/kirby-builder/zipball/6e8f6f4239dfe9836a394d32c2aeb9ceb5800780",
+                "reference": "6e8f6f4239dfe9836a394d32c2aeb9ceb5800780",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.1.0"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Ötting",
+                    "email": "email@tim-oetting.de"
+                }
+            ],
+            "description": "This versatile plugin for Kirby CMS (v3) lets you predefine content blocks with different field sets that can then be added, edited and arranged inside Kirby's panel.",
+            "keywords": [
+                "builder",
+                "kirby-builder",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "page-builder"
+            ],
+            "support": {
+                "issues": "https://github.com/TimOetting/kirby-builder/issues",
+                "source": "https://github.com/TimOetting/kirby-builder/tree/v2.0.16"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/TimOetting/10",
+                    "type": "custom"
+                }
+            ],
+            "time": "2020-11-18T23:15:15+00:00"
+        },
+        {
+            "name": "timoetting/kirby-color",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TimOetting/kirby-color.git",
+                "reference": "20e47c38be14779fb403a28683f923b4ca284dd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TimOetting/kirby-color/zipball/20e47c38be14779fb403a28683f923b4ca284dd8",
+                "reference": "20e47c38be14779fb403a28683f923b4ca284dd8",
+                "shasum": ""
+            },
+            "type": "plugin",
+            "autoload": {
+                "files": [
+                    "config.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Ötting",
+                    "email": "no@email.com"
+                }
+            ],
+            "description": "Kirby-Color is a color picker plugin for Kirby CMS v3.",
+            "support": {
+                "issues": "https://github.com/TimOetting/kirby-color/issues",
+                "source": "https://github.com/TimOetting/kirby-color/tree/v1.0.4"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/TimOetting/10",
+                    "type": "custom"
+                }
+            ],
+            "time": "2020-11-25T00:38:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

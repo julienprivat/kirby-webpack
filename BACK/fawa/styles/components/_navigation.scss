@@ -1,0 +1,28 @@
+.navigation {
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    font-size: 1rem;
+    margin: 5px;
+    flex-direction: column;
+
+    &_item {
+
+        padding: 4px 7px;
+        border-radius: 6px;
+        margin: 5px;
+
+        transition: color 0.3s ease,
+                background-color 0.3s ease;
+
+    }
+
+    .links, .parts {
+
+        display: flex;
+
+    }
+
+}

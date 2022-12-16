@@ -1,0 +1,19 @@
+$p100 : calc((100vw - 50px) / 100);
+
+.event {
+
+    &_table {
+
+        margin: 25px;
+        width: calc(100vw - 50px);
+
+        &_line {
+
+            display: grid;
+            grid-template-columns: calc($p100 * 15) calc($p100 * 10) calc($p100 * 20) calc($p100 * 50) calc($p100 * 5);
+            padding: 5px;
+        }
+
+    }
+
+}

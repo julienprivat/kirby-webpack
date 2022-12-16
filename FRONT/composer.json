@@ -1,0 +1,6 @@
+{
+    "require": {
+        "timoetting/kirby-builder": "^2.0",
+        "timoetting/kirby-color": "^1.0"
+    }
+}

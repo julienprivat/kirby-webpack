@@ -1,0 +1,247 @@
+Title: In Practices Studio
+
+----
+
+Apropos-text-content: [{"content":{"text_content":"<p>FAWA est un projet collectif, solidaire, culturel et culinaire n\u00e9 en Janvier 2020.<\/p>","color":"#FFFF4A","back":"#00B140"},"id":"0e0be866-dfa0-4bf8-b1f5-a50932ece64b","isHidden":false,"type":"text-bubble"},{"content":{"text_content":"<p>Nous sommes situ\u00e9\u00b7e\u00b7s \u00e0 l\u2019intersection entre Aubervilliers, Pantin et le 19e arrondissement. \u00c0 FAWA nos valeurs sont la solidarit\u00e9, la responsabilit\u00e9, la convivialit\u00e9, la cr\u00e9ativit\u00e9 et la mixit\u00e9. Notre grande halle passante est \u00e0 voir comme un lieu de vie.<\/p>","color":"#00B140","back":"#FFD8E5"},"id":"97a8f772-0b87-4292-a50f-6d25b07912f4","isHidden":false,"type":"text-bubble"},{"content":{"text_content":"<p>V\u00e9ritable incubateur en journ\u00e9e, \u00e0 FAWA nous accueillons un bar associatif,  partageons des  projets alternatifs  et recevons des  conf\u00e9rences et des  \u00e9v\u00e9nements culturels.<\/p>","color":"#FFFFFF","back":"#005500"},"id":"982fce03-b06d-444b-86d5-f3c58210f915","isHidden":false,"type":"text-bubble"}]
+
+----
+
+Layouts: [{"content":{"image":["capture-decran-2022-12-14-a-13.56.53.png"],"format":"50%","caption":"<p>\u201cSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet. consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam.<\/p><p>\u201cSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.<\/p>","color":"#00B140"},"id":"c89cff1b-b86d-49b5-ab52-f1ac1e89c9a8","isHidden":false,"type":"galerie-image"},{"content":{"image":["capture-decran-2022-12-14-a-13.57.01.png"],"format":"50%","caption":"<p>\u201cSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<\/p>","color":"#005500"},"id":"d8766197-acf7-4a14-b248-7b1f8ac76aef","isHidden":false,"type":"galerie-image"}]
+
+----
+
+Restaurant-text-content: [{"content":{"text_content":"<p>Notre projet de restauration WAFA, qui veut dire \u2018\u2019loyaut\u00e9\u2019\u2019 en arabe, pr\u00f4ne  une cuisine responsable, \u00e9cologique et solidaire. Gr\u00e2ce \u00e0 la r\u00e9cup\u00e9ration d\u2019invendus, nous visons une activit\u00e9 z\u00e9ro d\u00e9chets et une accessibilit\u00e9 maximale gr\u00e2ce \u00e0 des tarifs tr\u00e8s abordables.<\/p>","color":"#FF4500","back":"#FFFF4A"},"id":"22d5a923-feb1-468a-8c17-34a53470c18e","isHidden":false,"type":"text-bubble"}]
+
+----
+
+Rest-part-two: <p>Le MARDI : de 18h30 à 22h30<br>de MERCREDI à DIMANCHE : de 12h à 14h30, <br>puis de 18h30 à 22h30<br>(si évènements, on reste plus tard)</p><p>Le 1er et 3ème DIMANCHE de chaque mois <br>pour un brunch entre 10h et 18h.<br>Prix Fixe: 9 euros</p>
+
+----
+
+Rest-part-two-color: #83CFFF
+
+----
+
+Rest-galerie: [{"content":{"image":["capture-decran-2022-12-16-a-07.33.11.png"],"format":"50%","caption":"<p>\u201cSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet. consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam.<\/p>","color":"#FF4500"},"id":"c8fe6ee6-17fa-45ca-b636-7afbba7c7169","isHidden":false,"type":"galerie-image"},{"content":{"image":["capture-decran-2022-12-16-a-07.33.18.png"],"format":"50%","caption":"<p>Lorem ipsum dolor sit amet.<\/p>","color":"#3C2109"},"id":"3c4f9127-2351-4c7b-afb2-76dbb8006eb2","isHidden":false,"type":"galerie-image"}]
+
+----
+
+Event-text-content: [{"content":{"text_content":"<p>Le soir, l\u2019activit\u00e9 du lieu se d\u00e9die \u00e0 la f\u00eate gr\u00e2ce aux soir\u00e9es organis\u00e9es mettant \u00e0 l\u2019honneur des collectifs d\u2019artistes, toujours dans un esprit inclusif et bienveillant.<\/p>","color":"#00B140","back":"#3C2109"},"id":"6b36f990-8e13-4422-8ce4-7fcb728129eb","isHidden":false,"type":"text-bubble"}]
+
+----
+
+Evnt-part-two:
+
+- 
+  name: >
+    Dorothy Dandridge 100th Birthday
+    Celebration
+  date: 2022-12-17
+  horaire: 19h à 22h
+  type: Concert
+  prix: Gratuit
+- 
+  name: 'Xeno & Oaklander'
+  date: 2022-12-30
+  horaire: 19h à 2h
+  type: Film Projection
+  prix: 17€
+- 
+  name: >
+    Dorothy Dandridge 100th Birthday
+    Celebration
+  date: 2022-12-17
+  horaire: 19h à 22h
+  type: Concert
+  prix: Gratuit
+- 
+  name: 'Xeno & Oaklander'
+  date: 2022-12-30
+  horaire: 19h à 2h
+  type: Film Projection
+  prix: 17€
+- 
+  name: >
+    Dorothy Dandridge 100th Birthday
+    Celebration
+  date: 2022-12-17
+  horaire: 19h à 22h
+  type: Concert
+  prix: Gratuit
+- 
+  name: 'Xeno & Oaklander'
+  date: 2022-12-30
+  horaire: 19h à 2h
+  type: Film Projection
+  prix: 17€
+- 
+  name: jjj
+  date: 2022-12-08
+  horaire: ""
+  type: ""
+  prix: ""
+
+----
+
+Evnt-part-two-color: #005500
+
+----
+
+Evnt-part-two-back: #83CFFF
+
+----
+
+Evnt-galerie: [{"content":{"image":["capture-decran-2022-12-16-a-11.33.23.png"],"format":"100%","caption":"<p>Uniforme WAFA en collaboration avec 2Mai. Avec l\u2019\u00e9quipe de WAFA nous travaillons sur une s\u00e9rie de \u201cchemise de travail\u201d. Cette s\u00e9rie est r\u00e9alis\u00e9e \u00e0 partir de chemise et v\u00eatements sur le principe de l\u2019upcycling.<\/p>","color":"#3C2109"},"id":"91608096-85fe-4312-8e47-bd376bb64a52","isHidden":false,"type":"galerie-image"},{"content":{"image":["capture-decran-2022-12-16-a-11.33.32.png"],"format":"50%","caption":"<p>Lorem ipsum dolor sit amet.<\/p>","color":"#3C2109"},"id":"f48467e4-2828-482e-951f-3dbec1180eef","isHidden":false,"type":"galerie-image"},{"content":{"image":["capture-decran-2022-12-16-a-11.33.39.png"],"format":"100%","caption":"<p>\u201cSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet. consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam.<\/p>","color":"#00B140"},"id":"34c0c45a-a35e-41f3-b92f-edcfbe29098d","isHidden":false,"type":"galerie-image"}]
+
+----
+
+Contact-text-content: [{"content":{"text_content":"<p>Enfin, FAWA c\u2019est une vision et une proposition modulable au gr\u00e9 des rencontres et des \u00e9changes. C\u2019est ce que vous voudrez en faire et surtout ce que nous ferons ensemble !<\/p>","color":"#FFD8E5","back":"#FF4500"},"id":"1cda3750-427f-4b2b-b81b-1307fd28b9be","isHidden":false,"type":"text-bubble"}]
+
+----
+
+Contact-part-two:
+
+- 
+  label: 'Administration:'
+  email: info@wafa.org
+- 
+  label: 'Programmation Pluri-disciplinaire:'
+  email: julie@wafa.org
+- 
+  label: 'Programmation Musical:'
+  email: nicolas@wafa.org
+- 
+  label: 'Communication Press:'
+  email: xavier@wafa.org
+- 
+  label: Restaurant
+  email: wafa@wafa.org
+- 
+  label: Privatisation
+  email: privatisation@wafa.org
+
+----
+
+Contact-part-three: <p>DEVENIR BENEVOLE:<br>Tu veux t’engager dans une action concrète? Super! <br>Nous avons au moins trois journée volontaire chaque mois.<br>Pour en savoir plus contact: <a href="mailto:jessica@wafa.org" title="Jessica">jessica@wafa.org</a></p><p>Donner:<br>Vos dons supporte directement le travail de FAWA afin de <br>trouver des solutions immédiates et à long terme à l’insécurité alimentaire à Paris et au-delà.<br>Nous organisons regulierement des collectes de nourriture, de vêtements, etc. pour les association partenaire. </p><p>Pour en savoir plus et si tu as une question ou une remarque, contact: <a href="mailto:steph@wafa.org" title="Steph">steph@wafa.org</a></p>
+
+----
+
+Title-site: In Practice Studio
+
+----
+
+Base-site: Creative Firm
+
+----
+
+Description-seo: The studio is a Paris based design and branding consultancy owned and led by Creative Directors Clément Johanet and Iris Deschamps Courau. Founded with an ambition to create beautiful and timeless design, our work is realised across print, packaging, editorial, advertising and digital media. We create brand identity, graphic design and art direction for the industries of fashion, art, culture, music and commerce.
+
+----
+
+Image-seo:
+
+- capture-decran-2022-11-29-a-11.31.30.png
+
+----
+
+Contact-part-one: <p>Enfin, FAWA c’est une vision et une proposition modulable au gré des rencontres et des échanges. C’est ce que vous voudrez en faire et surtout ce que nous ferons ensemble!</p>
+
+----
+
+Contact-part-one-color: #FFD0D1
+
+----
+
+Contact-part-one-back: #FF4500
+
+----
+
+Evnt-part-one: 
+
+----
+
+Evnt-part-one-color: #FFFFFF
+
+----
+
+Evnt-part-one-back: #FFFFFF
+
+----
+
+Res-part-one: <p>Notre projet de restauration WAFA, qui veut dire ‘’loyauté’’ en arabe, prône  une cuisine responsable, écologique et solidaire. Grâce à la récupération d’invendus, nous visons une activité zéro déchets et une accessibilité maximale grâce à des tarifs très abordables.</p>
+
+----
+
+Rest-part-one-color: #FF4500
+
+----
+
+Rest-part-one-back: #FFFF4A
+
+----
+
+Part-two: 
+
+----
+
+Part-two-color: #FFFFFF
+
+----
+
+Part-two-back: #FFFFFF
+
+----
+
+Part-three: 
+
+----
+
+Part-three-color: #FFFFFF
+
+----
+
+Part-three-back: #FFFFFF
+
+----
+
+Address-postale: 11 bis Place Auguste Baron, 75019 Paris
+
+----
+
+Address-instagram: 
+
+----
+
+Adresse-facebook: 
+
+----
+
+Part-one: <p>FAWA est un projet collectif, solidaire, culturel et culinaire né en Janvier 2020.</p>
+
+----
+
+Part-one-color: #FFFF4A
+
+----
+
+Part-one-back: #00B140
+
+----
+
+Image-intro: [{"content":{"image":["capture-decran-2022-11-29-a-10.43.40.png"]},"id":"3a2fef41-af63-48c2-b7f9-98f34a2f5735","isHidden":false,"type":"galerie-image"},{"content":{"image":["capture-decran-2022-11-29-a-11.31.30.png"]},"id":"5c2fe7c1-43b2-48c7-87e6-9da691a39707","isHidden":false,"type":"galerie-image"}]
+
+----
+
+Text-agence: <p>The studio is a Paris based design and branding consultancy owned and led by Creative Directors Clément Johanet and Iris Deschamps Courau.</p><p>Founded with an ambition to create beautiful and timeless design, our work is realised across print, packaging, editorial, advertising and digital media. We create brand identity, graphic design and art direction for the industries of fashion, art, culture, music and commerce.</p>
+
+----
+
+Adresse-postale: 39, rue Vandrezanne - 75013 Paris
+
+----
+
+Adresse-mail: contact@inpracticestudio.com
+
+----
+
+Adresse-instagram: inpracticestudio

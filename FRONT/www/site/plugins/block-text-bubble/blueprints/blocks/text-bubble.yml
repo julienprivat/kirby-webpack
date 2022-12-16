@@ -1,0 +1,50 @@
+name: Image ou Video
+icon: image
+fields:
+  text_content:
+    label: Premier paragraphe
+    type: writer
+    width: 2/4
+  color:
+    label: couleur de texte
+    type: radio
+    options:
+      - value: '#3C2109' 
+        text: '<div style="background-color: #3C2109; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#FFFF4A' 
+        text: '<div style="background-color: #FFFF4A; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#005500' 
+        text: '<div style="background-color: #005500; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#00B140' 
+        text: '<div style="background-color: #00B140; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#FF4500' 
+        text: '<div style="background-color: #FF4500; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#83CFFF' 
+        text: '<div style="background-color: #83CFFF; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#FFD8E5' 
+        text: '<div style="background-color: #FFD8E5; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#FFFFFF' 
+        text: '<div style="background-color: #FFFFFF; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+    width: 1/4
+  back:
+    label: couleur de fond
+    type: radio
+    options:
+      - value: '#3C2109' 
+        text: '<div style="background-color: #3C2109; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#FFFF4A' 
+        text: '<div style="background-color: #FFFF4A; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#005500' 
+        text: '<div style="background-color: #005500; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#00B140' 
+        text: '<div style="background-color: #00B140; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#FF4500' 
+        text: '<div style="background-color: #FF4500; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#83CFFF' 
+        text: '<div style="background-color: #83CFFF; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#FFD8E5' 
+        text: '<div style="background-color: #FFD8E5; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+      - value: '#FFFFFF' 
+        text: '<div style="background-color: #FFFFFF; border-radius: 10px; border: 1px solid #C3C3C3; height: 20px; margin-right: 10px;">'
+    width: 1/4
+  

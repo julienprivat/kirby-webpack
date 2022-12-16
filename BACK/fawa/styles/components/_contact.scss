@@ -1,0 +1,34 @@
+.contacts {
+
+    .content {
+
+        margin: 25px;
+        color: $marron;
+
+        &_text {
+
+            display: flex;
+            margin-top: 25px;
+
+            div {
+
+                flex: 1;
+
+                p {
+
+                    margin-bottom: 25px;
+
+                }
+
+                a {
+
+                    color: $vert2
+
+                }
+            
+            }
+        }
+
+    }
+
+}

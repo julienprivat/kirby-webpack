@@ -1,0 +1,50 @@
+name: Image ou Video
+icon: image
+fields:
+  quid:
+    type: radio
+    options:
+      - image
+      - imagesx2
+      - video
+
+  image:
+    label: Image
+    type: files
+    uploads: image
+    max: 1
+    when: 
+      quid: image
+  images:
+    label: Images
+    type: files
+    uploads: image
+    max: 2
+    when: 
+      quid: imagesx2
+  video:
+    label: Video
+    type: files
+    uploads: video
+    max: 1
+    when: 
+      quid: video
+  ratio_image:
+    label: format
+    type: radio
+    options:
+      - width_100
+      - height_80
+    required: true
+    when: 
+      quid: image
+  ratio_video:
+    label: format
+    type: radio
+    options:
+      - width 100%
+      - height 80%
+    required: true
+    when: 
+      quid: video
+  

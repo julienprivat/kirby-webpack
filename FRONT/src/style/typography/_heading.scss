@@ -1,0 +1,65 @@
+/* ------------------------------------------------------------------ */
+/*        HEADING DECLARATION
+/* ------------------------------------------------------------------ */
+
+
+html, body {
+
+    font-family: 'neuf', sans-serif;
+    font-size: var(--courant_font);
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+    background-color: var(--blanc);
+    color: var(--noir);
+    // overflow: hidden;
+
+    transition: color 0.3s ease,
+                background-color 0.3s ease;
+
+}
+a {
+
+    cursor: pointer;
+    color: var(--noir);
+    text-decoration: none;
+
+}
+
+.not_mob {
+
+    @include mobile {
+
+        display: none!important;
+
+    }
+
+}
+
+.mob {
+
+    display: none;
+
+    @include mobile {
+
+        display: block;
+
+    }
+
+}
+
+img {
+
+    opacity: 0;
+    transform: translateY(-60px);
+
+    transition: transfom 0.3s ease,
+                opacity 0.3s ease;
+
+    &.visualised {
+
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+
+}

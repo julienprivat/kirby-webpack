@@ -1,0 +1,189 @@
+h1 {
+
+    font-size: 2.2rem!important;
+
+}
+
+.k-block-container {
+
+    width: calc(100% / 4);
+    display: inline-block;
+
+}
+
+video {
+
+    width: 100%;
+
+}
+
+.k-item-title-link {
+
+    font-size: 2.2rem!important;
+
+}
+
+.k-list-item {
+
+    height: 65px;
+
+}
+
+.k-pages-section .k-list-item .k-item-figure {
+
+    display: none;
+
+}
+
+.k-drawer-box .k-list-item .k-item-figure {
+
+    display: block;
+    width: 65px;
+
+}
+
+.k-drawer-box .k-list-item .k-item-figure img {
+
+    object-fit: cover !important;
+    
+}
+
+.k-drawer-box .k-item-title-link {
+
+    font-size: .875rem!important;
+
+}
+
+.ratio {
+
+    width: fit-content;
+    height: fit-content;
+    padding: 7px;
+    margin: 7px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 14px;
+    font-size: 10px;
+
+}
+
+.k-field-name-thumbnail .k-block-container {
+
+    width: 100%;
+
+}
+
+.k-cardlets-item[data-has-figure] {
+
+    display: block;
+    height: fit-content;
+
+}
+
+.k-cardlets-item[data-has-figure] .k-item-figure .k-image img {
+
+    object-fit: cover;
+
+}
+
+.k-cardlets-item[data-has-figure] .k-item-content .k-item-info {
+
+    font-size: 12px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    padding: 7px;
+    border-radius: 0px;
+    background-color: white;
+
+}
+
+.k-cardlets-item[data-has-figure] .k-item-content .k-item-title {
+
+    line-height: 1.625rem;
+    height: 34px;
+
+}
+
+.k-cardlets-item[data-has-figure] .k-item-footer {
+
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}
+
+.double {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.double_item {
+
+    height: 100%;
+    width: 50%;
+
+}
+
+.double_item img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.k-field-name-thumbnail .k-item-content {
+    display: none;
+}
+
+.k-field-name-thumbnail .k-icon-remove svg{
+
+    background-color: white;
+    border-radius: 30px;
+
+}
+
+.k-collection .k-item.k-cards-item.k-draggable-item .k-item-footer {
+
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border-radius: 30px;
+    height: fit-content;
+
+}
+
+.k-collection .k-item.k-cards-item.k-draggable-item .k-item-footer .k-item-buttons {
+
+    height: 25px;
+
+}
+
+.k-collection .k-item.k-cards-item.k-draggable-item .k-item-footer button {
+
+    height: 25px;
+
+}
+
+.k-collection .k-item.k-cards-item.k-draggable-item .k-item-footer .k-options-dropdown {
+
+    height: 25px;
+
+}
+
+.k-field-name-image_intro .k-item-content {
+    display: none;
+}
+
+.k-field-name-image_intro  .k-icon-remove svg{
+
+    background-color: white;
+    border-radius: 30px;
+
+}

@@ -1,0 +1,33 @@
+/* ------------------------------------------------------------------ */
+/*        MEDIA QUERIES
+/* ------------------------------------------------------------------ */
+
+@mixin mobile {
+    @media screen and (max-width: $breakpoint-mobile) {
+        @content;
+    }
+}
+
+@mixin mobile-portrait {
+    @media only screen and (max-device-width: 1024px) and (orientation: portrait) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen and (max-width: $breakpoint-tablet) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media screen and (max-width: $breakpoint-desktop) {
+        @content;
+    }
+}
+
+@mixin cinema {
+    @media screen and (min-width: $breakpoint-cinema) {
+        @content;
+    }
+}

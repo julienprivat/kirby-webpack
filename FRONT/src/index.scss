@@ -1,0 +1,21 @@
+//mixins
+@import "style/core/mixins/media-queries";
+
+// Core
+@import "style/core/reset";
+@import "style/core/variables";
+@import "style/core/import";
+@import "style/core/flickitys";
+@import "style/core/playervariables";
+
+// Typography
+@import "style/typography/heading";
+@import "style/typography/font-face";
+
+@import "style/layouts/body";
+
+
+// Views
+@import "style/views/home";
+@import "style/views/project";
+@import "style/views/information";

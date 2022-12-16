@@ -1,0 +1,22 @@
+.ratio-services {
+
+    width: fit-content;
+    height: fit-content;
+    padding: 7px;
+    margin: 7px;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+.project-services {
+
+    top: 40px;
+    width: fit-content;
+    height: fit-content;
+    padding: 7px;
+    margin: 7px;
+    border-radius: 20px;
+    background-color: white;
+
+}

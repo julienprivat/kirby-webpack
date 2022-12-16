@@ -1,0 +1,52 @@
+
+* {
+    box-sizing: border-box;
+}
+:root {
+
+    --size_big : 4rem;
+    --size_med : 1.3rem;
+    --size_courant : 0.95rem;
+
+    --interligne : 1.2;
+    --interlettrage_small : 0.1px;
+
+    // @include sizeone {
+
+    //     --size_h2 : 9vw;
+    //     --size_h3 : 20.5px;
+    //     --size_onglet : 22px;
+    //     --size_courant: 14.2px;
+    //     --size_intro: 14.5px;
+    //     --size_footer: 9px;
+
+    // }
+
+    // legal
+
+}
+
+html{
+    background-color: #3C2109;
+}
+
+body {
+
+    background-color: white;
+
+}
+
+html, body {
+    
+    font-family: sans-serif;
+    font-size: var(--size_courant);
+    line-height: var(--interligne);
+    letter-spacing: var(--interlettrage_small);
+
+}
+
+h3 {
+
+    text-align: center;
+
+}

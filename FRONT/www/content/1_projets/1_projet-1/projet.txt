@@ -1,0 +1,43 @@
+Title: projet 1
+
+----
+
+Thumbnail:
+
+- capture-decran-2022-11-30-a-13.14.57.png
+
+----
+
+Date-projet-begin: 2022
+
+----
+
+Date-projet-end: Today
+
+----
+
+Client-projet: client
+
+----
+
+Indus-projet: ind
+
+----
+
+Location-projet: loc
+
+----
+
+Type-projet: print, advertising
+
+----
+
+Description: <p>description</p>
+
+----
+
+Color: #634C4C
+
+----
+
+Layouts: [{"content":{"quid":"image","image":["capture-decran-2022-11-30-a-13.14.57.png"],"images":[],"video":[],"ratio_image":"width_100","ratio_video":""},"id":"a43b8dfc-7237-4f78-a174-43dc06a74278","isHidden":false,"type":"galerie"}]

@@ -1,0 +1,17 @@
+/* ------------------------------------------------------------------ */
+/*        FONT FACE DECLARATION
+/* ------------------------------------------------------------------ */
+
+// $base-fonts-path : '/wp-content/themes/carrie/assets/fonts';
+@font-face {
+    font-family: 'neuf';
+    src: url(http://localhost:8080/assets/fonts/Calibre-Medium.otf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'neuf';
+    src: url(http://localhost:8080/assets/fonts/Calibre-MediumItalic.otf);
+    font-weight: 300;
+    font-style: italic;
+}
